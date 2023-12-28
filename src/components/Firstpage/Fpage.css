@@ -1,0 +1,59 @@
+/* Fpage.css */
+
+.fpage {
+    background-color: #edf9ff;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading2 {
+    color: #034368;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.3em;
+    letter-spacing: -.03em;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .heading3 {
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.4em;
+    letter-spacing: -.3px;
+    text-align: center;
+    color: #034368;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 768px) {
+    .heading2 {
+      font-size: 36px;
+      margin-top: 20px;
+    }
+  
+    .heading3 {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .heading2 {
+      font-size: 24px;
+      margin-top: 15px;
+    }
+  
+    .heading3 {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+  
