@@ -49,3 +49,18 @@ p {
   cursor: pointer;
   background-color: antiquewhite;
 }
+
+@media  screen and (max-width:700px){
+  .task-image-container {
+    width: 12%;
+    height: 110px; 
+  }
+
+  }
+  @media  screen and (max-width:550px){
+    .task-image-container {
+      width: 15%;
+      height: 90px; 
+    }
+  
+    }

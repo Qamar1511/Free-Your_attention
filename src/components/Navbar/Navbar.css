@@ -42,7 +42,7 @@
 .btn{
     position: absolute;
     top: 639px;
-    left: 44%;
+    left: 46%;
     font-size: 18px;
     background-color: #2e87c1;
     color: whitesmoke;
@@ -50,7 +50,7 @@
     border: none;
     border-radius: 4px;
     margin: 8px;
-    display: inline-block;
+    /* display: inline-block; */
    
 }
 .btn:hover{
@@ -76,11 +76,11 @@
  }
  .para{
   font-size: 20px !important;
-  margin-bottom: 30px;
   line-height: 19px !important;
   letter-spacing: 0px !important;
   font-weight: 530 !important;
   font-family: "Raleway", Arial, sans-serif;
+  margin: 0px 20px 30px 15px ;
 }
 
 
@@ -99,6 +99,10 @@
     top: 430px;
 
   }
+  .btn{
+    left: 40%;
+  }
+ 
 }
 @media  screen and (max-width:550px){
   .imgpara{
@@ -112,6 +116,10 @@
     top: 430px;
 
   }
+  .btn{
+    left: 35%;
+  }
+
 }
 @media  screen and (max-width:460px){
   .imgpara{
@@ -120,6 +128,31 @@
   }
   .imgpara1{
     font-size: 13px !important;
+    font-weight: bold !important;
+    top: 430px;
+  }
+  .btn{
+    left: 30%;
+  }
+}
+@media  screen and (max-width:390px){
+  .imgpara{
+    font-size: 33px !important;
+    top: 340px;
+  }
+  .imgpara1{
+    font-size: 11px !important;
+    font-weight: bold !important;
+    top: 430px;
+  }
+}
+@media  screen and (max-width:300px){
+  .imgpara{
+    font-size: 28px !important;
+    top: 340px;
+  }
+  .imgpara1{
+    font-size: 9px !important;
     font-weight: bold !important;
     top: 430px;
   }
